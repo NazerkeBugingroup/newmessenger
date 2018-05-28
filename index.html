@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>dalagram.kz</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/audioplayer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/icons/favicon.png">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container clearfix">
+        <div class="left-head">
+          <div class="img-profile"><img class="img-100" src="img/ava/img1.png" data-toggle="modal" data-target="#modal4" data-dismiss="modal"></div>
+          <div class="search-box">
+            <input class="form-control" type="text" placeholder="Search">
+          </div>
+          <div class="link-news"><a href="" data-toggle="modal" data-target="#modal2" data-dismiss="modal"><img src="img/icons/ic-news.png"></a></div>
+          <div class="logo-head"><a href=""><img src="img/logo/logo.png"></a></div>
+        </div>
+        <div class="right-head"><a href=""><i class="icons ic-home"></i></a><a href=""><i class="icons ic-profile"></i></a><a href=""><i class="icons ic-nw"></i></a><a href="" data-toggle="modal" data-target="#modal1" data-dismiss="modal"><i class="icons ic-setting"></i></a></div>
+      </div>
+    </div>
+    <div class="modal modal-i" id="modal1" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="title-modal">Настройки</p>
+            <ul class="list-setting">
+              <li><i class="icons ic-not"></i><a href="">Уведомление</a></li>
+              <li><i class="icons ic-lock"></i><a href="">Сменить пароль</a></li>
+              <li><i class="icons ic-add-man"></i><a href="">Пригласить друзей</a></li>
+            </ul><a class="grey-text" href="">Удалить аккаунт</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-i" id="modal2" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="title-modal">Новая группа</p>
+            <div class="form-auth">
+              <div><span class="grey-text">Название группы</span>
+                <input class="form-control" type="email" value="New Messenger">
+              </div>
+            </div>
+            <div class="text-right bot-btns"><a class="grey-text" href=""><b>ОТМЕНА</b></a><a href="" data-toggle="modal" data-target="#modal3" data-dismiss="modal"><b>OK</b></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-i" id="modal3" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="title-modal clearfix">Новая группа<a class="pull-right add-group" href="">Создать</a></p>
+            <div class="mrg-b-10">
+              <input class="form-control" type="text" placeholder="Search">
+            </div>
+            <div class="form-auth">
+              <div><a href="">
+                  <div class="item-cont clearfix">
+                    <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+                    <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                      <div class="time-mess"><i class="icons ic-ar ic-select"></i></div>
+                    </div>
+                  </div></a><a href="">
+                  <div class="item-cont clearfix">
+                    <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+                    <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                      <div class="time-mess"><i class="icons ic-ar ic-select"></i></div>
+                    </div>
+                  </div></a><a href="">
+                  <div class="item-cont clearfix">
+                    <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+                    <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                      <div class="time-mess"><i class="icons ic-ar ic-select"></i></div>
+                    </div>
+                  </div></a><a href="">
+                  <div class="item-cont clearfix">
+                    <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+                    <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                      <div class="time-mess"><i class="icons ic-ar ic-select"></i></div>
+                    </div>
+                  </div></a><a href="">
+                  <div class="item-cont clearfix">
+                    <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+                    <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                      <div class="time-mess"><i class="icons ic-ar ic-select"></i></div>
+                    </div>
+                  </div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-i" id="modal4" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="title-modal">Мой профиль</p>
+            <div class="form-auth">
+              <div>
+                <div class="imd-modal-prof"><img class="img-100" src="img/ava/img1.png">
+                  <div class="change-img">
+                    <input type="file">
+                  </div>
+                </div>
+              </div>
+              <div><span class="blue-text">Имя</span>
+                <input class="form-control" type="text" value="Maqsat Batyrqul">
+              </div>
+            </div>
+            <div class="text-right bot-btns"><a class="text-red" href=""><b>Выход</b></a><a href=""><b>Изменить</b></a></div>
+            <div class="bot-btns"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container clearfix">
+        <div class="left-content"><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block">Nasty Markelova</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar"></i><span>9:35 AM</span></div>
+                <div class="count-mess">23</div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img3.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block">Nasty Markelova</span><span class="d-block">😚❤️<span class="grey-text"> Thanks!</span></span>
+                <div class="time-mess"><span>Wed</span></div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar active"></i><span>Wed</span></div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix active">
+              <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block">Nasty Markelova</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar"></i><span>9:35 AM</span></div>
+                <div class="count-mess">23</div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img3.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block">Nasty Markelova</span><span class="d-block">😚❤️<span class="grey-text"> Thanks!</span></span>
+                <div class="time-mess"><span>Wed</span></div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar active"></i><span>Wed</span></div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block">Nasty Markelova</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar"></i><span>9:35 AM</span></div>
+                <div class="count-mess">23</div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img3.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block">Nasty Markelova</span><span class="d-block">😚❤️<span class="grey-text"> Thanks!</span></span>
+                <div class="time-mess"><span>Wed</span></div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar active"></i><span>Wed</span></div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block">Nasty Markelova</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar"></i><span>9:35 AM</span></div>
+                <div class="count-mess">23</div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar active"></i><span>Wed</span></div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block">Nasty Markelova</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar"></i><span>9:35 AM</span></div>
+                <div class="count-mess">23</div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img3.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block">Nasty Markelova</span><span class="d-block">😚❤️<span class="grey-text"> Thanks!</span></span>
+                <div class="time-mess"><span>Wed</span></div>
+              </div>
+            </div></a><a href="">
+            <div class="item-cont clearfix">
+              <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+              <div class="cont-prof"><span class="d-block">Baikal Lake</span><span class="d-block grey-text">joined the channel</span>
+                <div class="time-mess"><i class="icons ic-ar active"></i><span>Wed</span></div>
+              </div>
+            </div></a></div>
+        <div class="right-content">
+          <div class="center-messege">
+            <div>
+              <div class="list-messege"><span class="d-block text-center grey-text">04 February</span>
+                <div class="item-cont clearfix">
+                  <div class="img-cont"><img class="img-100" src="img/ava/img2.png"></div>
+                  <div class="cont-prof"><span class="d-block blue-text">Baikal Lake</span><span class="d-block ask-text">Already here.
+                      <div class="links-more">
+                        <ul>
+                          <li><a href="">Ответить</a></li>
+                          <li><a href="">Переслать</a></li>
+                          <li><a href="">Удалить</a></li>
+                          <li><a href="">Сохранить</a></li>
+                        </ul>
+                      </div>
+                      <div class="ask-text-more"></div></span>
+                    <div class="time-mess"><i class="icons ic-ar active"></i><span>Fri</span></div>
+                  </div>
+                </div>
+                <div class="item-cont clearfix">
+                  <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+                  <div class="cont-prof"><span class="d-block blue-text">Dmitriy</span><span class="d-block ask-text"><a href="">https://www.behance.net/gallery/4062</a>
+                      <div class="ask-text-more"></div></span>
+                    <div class="time-mess"><i class="icons ic-ar active"></i><span>Fri</span></div>
+                  </div>
+                </div>
+                <div class="item-cont clearfix">
+                  <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+                  <div class="cont-prof"><span class="d-block blue-text">Dmitriy</span><span class="d-block ask-text">
+                      <div class="box-video"><img class="img-100" src="img/img1.png"><i class="icons ic-play"></i></div>
+                      <div class="ask-text-more"></div></span>
+                    <div class="time-mess"><i class="icons ic-ar active"></i><span>Fri</span></div>
+                  </div>
+                </div>
+                <div class="item-cont clearfix">
+                  <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+                  <div class="cont-prof"><span class="d-block blue-text">Dmitriy</span><span class="d-block ask-text">
+                      <div class="box-audio">
+                        <audio preload="auto" controls>
+                          <source src="audio/audio1.mp3">
+                        </audio>
+                      </div>
+                      <div class="ask-text-more"></div></span>
+                    <div class="time-mess"><i class="icons ic-ar active"></i><span>Fri</span></div>
+                  </div>
+                </div>
+                <div class="item-cont clearfix">
+                  <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+                  <div class="cont-prof"><span class="d-block blue-text">Dmitriy</span><span class="d-block ask-text"><a href="">https://www.behance.net/gallery/4062</a><span class="d-block link-box"><span class="d-block blue-text">Behance</span><span class="d-block">Still Optimist</span><span class="d-block">Pony Mtl and Sid Lee Collective</span><img class="img-100" src="img/ava/img1.png"></span>
+                      <div class="ask-text-more"></div></span>
+                    <div class="time-mess"><i class="icons ic-ar active"></i><span>Fri</span></div>
+                  </div>
+                </div>
+                <div class="item-cont clearfix">
+                  <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+                  <div class="cont-prof"><span class="d-block blue-text">Dmitriy</span><span class="d-block ask-text"><a href="">https://www.behance.net/gallery/4062</a>
+                      <div class="ask-text-more"></div></span>
+                    <div class="time-mess"><i class="icons ic-ar active"></i><span>Fri</span></div>
+                  </div>
+                </div>
+                <div class="item-cont clearfix">
+                  <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+                  <div class="cont-prof"><span class="d-block blue-text">Dmitriy</span><span class="d-block ask-text">
+                      <div class="box-video"><img class="img-100" src="img/img1.png"><i class="icons ic-play"></i></div>
+                      <div class="ask-text-more"></div></span>
+                    <div class="time-mess"><i class="icons ic-ar active"></i><span>Fri</span></div>
+                  </div>
+                </div>
+                <div class="item-cont clearfix">
+                  <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+                  <div class="cont-prof"><span class="d-block blue-text">Dmitriy</span><span class="d-block ask-text">
+                      <div class="box-audio">
+                        <audio preload="auto" controls>
+                          <source src="audio/audio1.mp3">
+                        </audio>
+                      </div>
+                      <div class="ask-text-more"></div></span>
+                    <div class="time-mess"><i class="icons ic-ar active"></i><span>Fri</span></div>
+                  </div>
+                </div>
+                <div class="item-cont clearfix">
+                  <div class="img-cont"><img class="img-100" src="img/ava/img1.png"></div>
+                  <div class="cont-prof"><span class="d-block blue-text">Dmitriy</span><span class="d-block ask-text"><a href="">https://www.behance.net/gallery/4062</a><span class="d-block link-box"><span class="d-block blue-text">Behance</span><span class="d-block">Still Optimist</span><span class="d-block">Pony Mtl and Sid Lee Collective</span><img class="img-100" src="img/ava/img1.png"></span>
+                      <div class="ask-text-more"></div></span>
+                    <div class="time-mess"><i class="icons ic-ar active"></i><span>Fri</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="inf-in-prof" style="background-color: #fff;">
+              <div class="in-profile">
+                <div class="in-img"><img class="img-100" src="img/ava/img1.png">
+                  <div class="name-prof-in">
+                    <p>Amanda Hayes<small class="d-block">last seen yesterday at 6:56 PM</small></p>
+                  </div>
+                </div>
+                <div class="inf-my-prof">
+                  <div>
+                    <p><small class="d-block blue-text">home</small><span>8 705 123 43 21</span></p>
+                  </div>
+                  <div>
+                    <p class="clearfix"><span class="blue-text">Медиа</span><small class="pull-right grey-text">123 ></small></p>
+                    <div class="imges-media"><img src="img/ava/img1.png"><img src="img/ava/img2.png"><img src="img/ava/img3.png"><img src="img/ava/img1.png"></div>
+                  </div>
+                  <div class="bot-inf-prof">
+                    <ul>
+                      <li><a class="clearfix" href="">Notification<span class="pull-right grey-text">None</span></a></li>
+                      <li><a href="">Clear chat</a></li>
+                      <li><a class="text-red" href="">Block user</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block-search">
+            <div class="link-doc"><a href=""><img src="img/icons/ic-attach.png"></a></div>
+            <div class="edit-text">
+              <textarea class="form-control" rows="1" data-autoresize placeholder="Write a message..."></textarea>
+            </div>
+            <div class="link-smailik"><a href=""><img src="img/icons/ic-smile.png"></a></div>
+            <div class="link-audio"><a href=""><img src="img/icons/ic-audio.png"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/lib.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/audioplayer.js"></script>
+  </body>
+</html>
